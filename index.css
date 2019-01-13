@@ -1,0 +1,164 @@
+body {
+  background-color: lightblue !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/*NAVBAR STYLINGS*/
+.sticky-top {
+    transition: all 0.25s ease-in;
+}
+/*Before Scroll Navbar Color*/
+#navbarStart {
+  background-color: lightblue;
+}
+/*After Scroll Navbar Color*/
+.stuck .sticky-top {
+    color: white: !important;
+    background-color: #5bc0de !important;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+}
+/*Navbar MobileView Button Color*/
+#navButton {
+  border-color: transparent;
+}
+#nav {
+  text-align: center;
+}
+/*END NAVBAR STYLINGS */
+
+
+
+/*HEADER STYLINGS */
+      header {
+        font-family:'Montserrat', sans-serif;
+        text-align: center;
+        margin-bottom: 30%;
+        padding-top: 15%;
+      }
+/* END HEADER STYLINGS */
+
+
+
+/*PROGRESS BAR STYLINGS*/ 
+.progress {
+  margin-bottom: 3%;
+}
+.progressTitle {
+  font-family: 'Montserrat', sans-serif;
+  opacity: .5;
+  font-size: 2em;
+  margin-bottom: 0px;
+}
+/*END PROGRESS BAR STYLINGS */
+
+
+/*PORTFOLIO STYLINGS */
+.portfolioTitle {
+  font-family: 'Montserrat', sans-serif;
+  opacity: .5;
+  font-size: 2em;
+}
+#portfolio {
+  margin-bottom: 1%;
+}
+/*END PORTFOLIO STYLINGS*/
+
+
+
+/*ABOUT ME STYLINGS */
+.headerTitle {
+  font-family: 'Montserrat', sans-serif;
+  opacity: .9;
+  font-size: 2em;
+  margin-bottom: 0px;
+  color: darkblue;
+}
+#aboutMe {
+  max-width: 90%;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  background-color: lightyellow;
+  color: black;
+}
+.aboutMe {
+  font-size: 1rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: darkblue;
+}
+/*ABOUT ME STYLINGS END*/
+
+
+
+
+/*FOOTER STYLINGS*/
+section {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+section .section-title {
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+#contactMeTitle {
+  color: darkblue;
+}
+#footer {
+  background: !important;
+  color: white;
+}
+#footer h5{
+  padding-left: 10px;
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;    
+  color:darkblue;
+}
+#footer a {
+  color: darkblue;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+.footerLink {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+/*FOOTER STYLINGS END*/
+
+
+
+/*SMALLER SCREEN STYLINGS */
+@media only screen and (max-width: 600px) {
+  header {
+   margin-top: 0px;
+  }
+  #sectionHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+  }
+  .headerTitle {
+    font-size: 2rem;
+  }
+  #progressContainer {
+    max-width: 95%;
+  }
+  #portfolio2 {
+    margin-bottom: 10px;
+  }
+  .container2 {
+    display: none;
+  }
+}
+/*END SMALLER SCREEN STYLINGS*/
+     
+
